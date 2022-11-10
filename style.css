@@ -2484,12 +2484,13 @@ select.mobile-device {
   color:white;
   padding-top: 25px;
   padding-left: 25px;
+
 }
 
-.insta{
-  padding-left: 480px;
+.footers{
+text-align: center;
 }
+
 .finalcopyrights{
-  padding-top: 15px;
-  padding-left: 520px;
+  padding-top: 10px;
 }
