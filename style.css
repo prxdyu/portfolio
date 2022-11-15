@@ -491,6 +491,7 @@ xclip
 
 .section.wb {
     background-color: #ffffff;
+    padding-bottom: 0px;
 }
 
 .section.lb {
@@ -2493,4 +2494,18 @@ text-align: center;
 
 .finalcopyrights{
   padding-top: 10px;
+}
+
+/* .miniproject-icon{
+margin-bottom: 20px; */
+
+.mini-project-icons{
+  color: white;
+  font-size: 30px;
+
+}
+
+.mini-project-title{
+  display: inline;
+  margin-left: 20px;
 }
