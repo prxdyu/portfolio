@@ -496,6 +496,7 @@ xclip
 
 .section.lb {
     background-color: #f2f3f5;
+      /* padding-top: 30px; */
 }
 
 .section.db {
@@ -596,7 +597,8 @@ xclip
 }
 
 .btn-hover-new::after {
-    content: attr(data-text);
+    content:View Resume;
+    color:yellow;
     position: absolute;
     width: 100%;
     height: 100%;
@@ -623,7 +625,7 @@ xclip
 	background-color: #333333;
 }
 .btn-hover-new:hover > span {
-    opacity: 0;
+    opacity: 100;
     -webkit-transform: translate(0px,40px);
     transform: translate(0px,40px);
 }
@@ -2508,4 +2510,19 @@ margin-bottom: 20px; */
 .mini-project-title{
   display: inline;
   margin-left: 20px;
+
+}
+.mini-project-title:hover{
+  color:#47f8ca;
+}
+.project-title:hover{
+  color:#2b85e7;
+}
+
+#about.section.wb{
+  padding-bottom: 70px;
+}
+
+ #project.section.lb{
+  padding-top:20px;
 }
