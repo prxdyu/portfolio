@@ -53,7 +53,7 @@
 }
 @media (max-width: 767px) {
 	#mainNav {
-		background-color: #333333;
+		background-color: #000000bf;
 	}
 	.navbar-dark .navbar-brand{
 		width: 55%;
@@ -146,5 +146,5 @@
 	.footer-distributed .footer-left{
 		text-align: center;
 	}
-	
+
 }
