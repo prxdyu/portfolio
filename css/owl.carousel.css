@@ -168,7 +168,7 @@
 }
 .owl-next i,
 .owl-prev i {
-  background-color: #111;
+  background-color: #0000007d;
   width: 60px;
   height: 60px;
   font-size: 28px;
@@ -178,8 +178,8 @@
   color: #ffffff;
 }
 
-.owl-next i:hover, .owl-prev i:hover{
-	background: #cccccc;
+.owl-next i:hover, .owl-prev i:hover {
+    background: #00000099;
 }
 
 .owl-next i {

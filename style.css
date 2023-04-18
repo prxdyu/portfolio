@@ -8,6 +8,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
 
+
 /*------------------------------------------------------------------
     IMPORT FILES
 -------------------------------------------------------------------*/
@@ -24,7 +25,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: #c4d2f6;
     font-size: 14px;
     font-family: 'Roboto Mono', monospace;
     line-height: 1.80857;
@@ -88,7 +89,7 @@ h6 {
     padding: 0 0 10px 0;
     font-weight: normal;
     line-height: 120% !important;
-    color: #333333;
+    color: #ffffff;
     margin: 0
 }
 
@@ -122,7 +123,7 @@ h3 a,
 h4 a,
 h5 a,
 h6 a {
-    color: #212121;
+    color: #e9ecef;
     text-decoration: none!important;
     opacity: 1
 }
@@ -451,7 +452,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #333333;
+    background-color: #050c16c7;
 }
 
 #clouds{
@@ -492,6 +493,8 @@ xclip
 .section.wb {
     background-color: #ffffff;
     padding-bottom: 0px;
+    background-image: url('images/sky.jpg');
+    background-attachment: fixed;
 }
 
 .section.lb {
@@ -549,7 +552,7 @@ xclip
 }
 
 .section-title p {
-    color: #999;
+    color: #e0f7ff;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -574,13 +577,14 @@ xclip
 
 
 .btn-hover-new{
-	color: #333333;
+  background-color: #38526600;
+  color: #b9e0ff;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
 	position: relative;
-	border: 1px solid #333333;
+	border: 2px outset #364f65;
 	overflow: hidden;
 	padding: 0px 18px;
 	display: inline-block;
@@ -662,7 +666,7 @@ xclip
 
 .services-inner-box{
 	padding: 15px;
-	background: #ffffff;
+  background: rgb(0 0 0 / 10%);
 	margin-bottom: 30px;
 }
 .ser-icon{
@@ -839,7 +843,7 @@ xclip
 .desc {
     padding: 30px;
     position: relative;
-    background: #000;
+    background: rgb(0 0 0 / 25%);
     border: 1px solid #111111;
 }
 
@@ -1495,7 +1499,7 @@ hr.invis1 {
 	position: absolute;
 	top: 15px;
 	right: 15px;
-	background: #333333;
+	background: #ffffff;
 	color: #fff;
 	padding: 10px 15px;
 	text-align: center;
@@ -1508,7 +1512,7 @@ hr.invis1 {
 .post-box{
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
-	background: #ffffff;
+	background: #1c2b3a;
 }
 
 .post-box:hover .post-thumb::before{
@@ -1535,7 +1539,7 @@ hr.invis1 {
 
 .post-info{
 	padding: 0px 15px 40px 15px;
-	background: #ffffff;
+	background: #1c2b3a;
 	text-align: left;
 	margin-top: 40px;
 }
@@ -2047,16 +2051,16 @@ select.mobile-device {
 }
 
 .contact_form {
-    border: 1px solid #ededed;
+    border: 1px solid rgb(5 5 18 / 29%);
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5;
+    background-color: #252d3545;
     padding: 40px 30px;
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color: #02090b4a;
     margin-bottom: 30px;
-    border: 1px solid #ebebeb;
+    border: 1px solid #454c4e;
     box-sizing: border-box;
     color: #bcbcbc;
     font-size: 16px;
@@ -2492,6 +2496,7 @@ select.mobile-device {
 
 .footers{
 text-align: center;
+background-color: #08263e7d;
 }
 
 .finalcopyrights{
@@ -2521,13 +2526,42 @@ margin-bottom: 20px; */
 
 #about.section.wb{
   padding-bottom: 70px;
+  background-image: url('images/sky.jpg');
+  background-attachment: fixed;
+  /* width: 100%;
+  height: 100%; */
+
 }
 
  #project.section.lb{
   padding-top:20px;
+  background-image: url('images/sky.jpg');
+  background-attachment: fixed;
+
+}
+
+#services.section.lb{
+  background-image: url('images/sky.jpg');
+  background-attachment: fixed;
+}
+
+#blog.section.lb{
+  background-image: url('images/sky.jpg');
+  background-attachment: fixed;
 }
 
 .anime{
   border-radius: 10px;
-  
+
+}
+
+hr{
+  margin: 0px;
+  color: black;
+  border-top: 0.5px solid rgb(0 0 0)
+}
+
+#contact.section.db{
+  background-image: url('images/contact.jpg');
+  background-attachment: fixed;
 }
