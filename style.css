@@ -2565,3 +2565,13 @@ hr{
   background-image: url('images/contact.jpg');
   background-attachment: fixed;
 }
+
+.python
+{
+  width:  50px;
+}
+
+.analytics{
+  width: 80px;
+  padding-bottom: 40px;
+}
