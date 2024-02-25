@@ -1218,6 +1218,7 @@ xclip
     line-height: 62px;
     margin-top: 0;
     text-transform: none;
+    align-items:center ;
 }
 
 .message-box p {
