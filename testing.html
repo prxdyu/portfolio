@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'Education')">Education</button>
+        <button class="tablinks" onclick="openTab(event, 'Skills')">Professional Skills</button>
+        <button class="tablinks" onclick="openTab(event, 'Experience')">Experience</button>
+        <button class="tablinks" onclick="openTab(event, 'Achievements')">Achievements & Certifications</button>
+        <button class="tablinks" onclick="openTab(event, 'Hobbies')">Hobbies</button>
+    </div>
+
+    <div id="Education" class="tabcontent">
+        <h3>Education</h3>
+        <p>List of projects related to education.</p>
+    </div>
+
+    <div id="Skills" class="tabcontent">
+        <h3>Professional Skills</h3>
+        <p>List of projects related to professional skills.</p>
+    </div>
+
+    <div id="Experience" class="tabcontent">
+        <h3>Experience</h3>
+        <p>List of projects related to experience.</p>
+    </div>
+
+    <div id="Achievements" class="tabcontent">
+        <h3>Achievements & Certifications</h3>
+        <p>List of projects related to achievements and certifications.</p>
+    </div>
+
+    <div id="Hobbies" class="tabcontent">
+        <h3>Hobbies</h3>
+        <p>List of projects related to hobbies.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
