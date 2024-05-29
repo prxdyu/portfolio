@@ -191,7 +191,7 @@
     padding-bottom: 0px;">
         <div class="container">
             <div class="section-title text-left">
-                <h3>Skills</h3>
+                <h3>Expertise</h3>
 
             </div><!-- end title -->
 
@@ -274,15 +274,16 @@
                   <div class="tabs">
                       <button class="tablinks" onclick="openTab(event, 'MachineLearning')">Machine Learning Projects</button>
                       <button class="tablinks" onclick="openTab(event, 'DeepLearning')">Deep Learning Projects</button>
+                      <button class="tablinks" onclick="openTab(event, 'Implementations')">Implementations</button>
                       <button class="tablinks" onclick="openTab(event, 'Python')">Python Projects</button>
+                      
                   </div>
           
+                   <!-- ML PROJECTS -->
                   <div id="MachineLearning" class="tabcontent">
 
-                            <!-- ML PROJECTS -->
                               <br>
-
-
+                              
                               <div class="row">
                                     <!-- 1. Propensity Modelling -->
                                     <div class="col-md-4 col-sm-6 col-lg-4">
@@ -314,7 +315,30 @@
                                             </a> <!-- Missing closing tag added here -->
                                         </div>
                                     </div>
-                            </div> <!-- Closing div for the row added here -->
+
+                                    <!-- 3. Marketing attribution -->
+
+                                    <div class="col-md-4 col-sm-6 col-lg-4">
+                                      <div class="post-box">
+                                          
+                                              <div class="post-thumb">
+                                                  <img src="uploads/markov.jpeg" class="img-fluid project-img" alt="post-img" />
+                                              </div>
+                                              <div class="post-info">
+                                                  <h4 class='project-title'><a href="http://52.90.53.178:5000/">Marketing Attribution</a> <a href="https://github.com/prxdyu/market_basket_analysis"><i class="fa-brands fa-github projecticons"></i></a></h4>
+                                                  <p>Implemented Markov chains for computing the transition probabilities between different marketing channels in user's journey aiding marketing teams to attribute channels appropriately </p>
+                                              </div>
+                                          
+                                      </div>
+                                  </div>
+
+
+
+
+
+
+
+                               </div> <!-- Closing div for the row added here -->
                   
                   </div>
                       
@@ -332,14 +356,14 @@
                                                         
                                                     </div>
                                                     <div class="post-info">
-                                                        <a href="https://review-sentiment-analyzer.streamlit.app/"> <h4 class='project-title'>Restaurant review sentiment analyzer<a href="https://github.com/prxdyu/review_sentiment_analyzer">  <i class="fa-brands fa-github projecticons"></i></a></h4></a>
+                                                        <a href="https://review-sentiment-analyzer.streamlit.app/"> <h4 class='project-title'>Restaurant review sentiment analyzer        <a href="https://github.com/prxdyu/review_sentiment_analyzer">         <i class="fa-brands fa-github projecticons"></i></a></h4></a>
                                                         <p >Built an Aspect-Based Sentiment Analyzer for restaurant reviews by implementing GRUs with custom attention mechanism using tensorflow. Given a review and aspect, this model predicts sentimentof the reviewer about that aspect.</p>
                                                     </div>
                                                
                                             </div>
                                         </div>
                                 
-                                        <!-- 2. Market basket analysis -->
+                                        <!-- 2. Hinglish2English -->
                                         <div class="col-md-4 col-sm-6 col-lg-4">
                                             <div class="post-box">
                                                 
@@ -355,12 +379,15 @@
                                                 
                                             </div>
                                         </div>
-                              </div> <!-- Closing div for the row added here -->
+                                        
+                            </div> <!-- closing div for row-->
 
-                  </div>
+                  </div> <!-- closing div for DL projects-->
+                  
+                  
                   
                   <!-- PYTHON PROJECTS -->
-                  <div id="Python" class="tabcontent">
+                   <div id="Python" class="tabcontent">
                       <br>
                       <div class="row">
                         <!-- 1. ABSA -->
@@ -373,17 +400,79 @@
                                 <div class="post-info">
                                   <h4 class='project-title'>Blog Web-App <a href="https://github.com/prxdyu/Pradyu-Blog"><i class="fa-brands fa-github projecticons"></i></h4>
                                   </a>
-                                  <p style="padding-bottom:23px;">Standalone Blog Web-Application for blogging  where a user can create account, login, post and comment on others post. Developed the fronted using HTML, CSS, Bootstrap and JavaScript. Employed Python Flask framework for the backend. This webapp is deployed using render cloud </p>
+                                  <p >Developed Standalone Blog Web-Application for blogging  where a user can create account, login, post blogs and comment on others blogs. Developed the fronted using HTML, CSS, Bootstrap and JavaScript. UtilizedPython Flask framework for the backend and deployed using render cloud</p>
                                 </div>
                           </div>
                         </div>
                 
                         
                       </div> <!-- Closing div for the row added here -->
+                   </div>
+                 
 
 
-                  </div>
-            </div>
+                  <!-- IMPLEMENTATIONS -->
+
+                  <div id="Implementations" class="tabcontent">
+                    <br>
+                    <div class="row">
+
+                      <!-- 1. ML algos -->
+                      <div class="col-md-4 col-sm-6 col-lg-4">
+                        <div class="post-box">
+                            
+                              <div class="post-thumb">
+                                <img src="uploads/ml_algos.jpeg" class="img-fluid project-img" alt="post-img" />
+                              </div>
+                              <div class="post-info">
+                                <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>ML Algorithms  <i class="fa-brands fa-github projecticons"></i></h4> </a>            
+                                <p >Implemented various Machine learning algorithms, metric and functionalities of sklearn using python from scratch which demonstrates my ability to code things from scratch </p>
+                              </div>
+                         </div>
+                      </div>
+
+
+                      <!-- CNN Architectures -->
+                      <div class="col-md-4 col-sm-6 col-lg-4">
+                        <div class="post-box">
+                            
+                              <div class="post-thumb">
+                                <img src="uploads/cnn.jpeg" class="img-fluid project-img" alt="post-img" />
+                              </div>
+                              <div class="post-info">
+                                <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>ConvNet Architectures<i class="fa-brands fa-github projecticons"></i></h4> </a>            
+                                <p >Implemented various Convolutional Neural Networks architectures like AlexNet, LeNet, InceptionNet and ResNet50 using Pytorch from scratch  demonstrating my ability to implement convnets</p>
+                              </div>
+                         </div>
+                      </div>
+
+
+                      <!-- Neural Style Transfer -->
+
+                      <div class="col-md-4 col-sm-6 col-lg-4">
+                        <div class="post-box">
+                            
+                              <div class="post-thumb">
+                                <img src="uploads/nst2.jpeg.png" class="img-fluid project-img" alt="post-img" />
+                              </div>
+                              <div class="post-info">
+                                <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>Neurak Style Transfer  <i class="fa-brands fa-github projecticons"></i></h4> </a>            
+                                <p >Coded Neural style transfer algorithm to style images from scratch using pytorch. Used VGG19 model pre-trained on ImageNet to extract features from both content and style images</p>
+                              </div>
+                         </div>
+                      </div>
+
+
+              
+                      
+                    </div> <!-- Closing div for the row added here -->
+                 </div>
+
+
+
+                  
+            
+          </div>
       <br>
 
 			
@@ -432,75 +521,103 @@
   <div id="testimonials" class="section wb" style="padding-top: 40px;">
        <div class="container">
            <div class="section-title text-left">
-               <h3>Mini Projects</h3>
+               <h3>Certications</h3>
 
            </div><!-- end title -->
 
            <div class="row">
                <div class="col-md-12 col-sm-12">
                    <div class="testi-carousel owl-carousel owl-theme">
+
+
+                    <div class="testimonial clearfix">
+                      <div class="desc">
+
+                        <a href="https://github.com/prxdyu/PongGame"><h3 class='mini-project-title'>
+                         100 Days of Code Python Bootcamp</h3></a>
+
+                          <p class="lead">Acquired proficiency in web development,creating applications and RESTful APIs with Flask. Also, gained experience in database interaction</p>
+                      </div>
+
+                      <!-- end testi-meta -->
+                  </div>
+
+
+
+
+                  <div class="testimonial clearfix">
+                    <div class="desc">
+
+                      <a href="https://github.com/prxdyu/PongGame"><h3 class='mini-project-title'>Pandas Bootcamp: Advanced Data Analysis</h3></a>
+
+                        <p class="lead">Master advanced Python data analysis and  manipulating complex datasets, extract insights,</p>
+                    </div>
+
+                    <!-- end testi-meta -->
+                </div>
+
+
+
+
+
+                  <div class="testimonial clearfix">
+                    <div class="desc">
+
+                      <a href="https://github.com/prxdyu/PongGame"><h3 class='mini-project-title'>
+                       Intro to Machine Learning NPTEL</h3></a>
+
+                        <p class="lead"> Completed and obtained course completion certificate through an offline proctored examination with a  top performance with 84 % </p>
+                    </div>
+
+                    <!-- end testi-meta -->
+                </div>
+
+
+
+
+
+
+
+
+                <div class="testimonial clearfix">
+                  <div class="desc">
+
+                    <a href="https://github.com/prxdyu/PongGame"><h3 class='mini-project-title'>
+                      AWS Educate Introduction to Cloud </h3></a>
+                      <p class="lead">Gained a solid understanding of the fundamental AWS concepts and services such as  EC2, S3, RDS, and Lambda.  </p>
+                  </div>
+
+                  <!-- end testi-meta -->
+              </div>
+
+
+
+
+
+
+
+
+
+
                        <div class="testimonial clearfix">
                            <div class="desc">
 
-                             <a href="https://github.com/prxdyu/PongGame"><i class="fa-solid fa-table-tennis-paddle-ball mini-project-icons"></i><h3 class='mini-project-title'>Pong Game </h3></a>
+                             <a href="https://github.com/prxdyu/PongGame"><h3 class='mini-project-title'>
+                              AWS Guided Project S3 Basics</h3></a>
 
-                               <p class="lead">This Mini project replicates the Classic multiplayer Pong game during '70s, built using the Turtle library in python </p>
+                               <p class="lead">Acquired knowledge and gained hands-on experience of AWS S3 to store and retrieve data using S3 buckets</p>
                            </div>
 
                            <!-- end testi-meta -->
                        </div>
                        <!-- end testimonial -->
 
-                       <div class="testimonial clearfix">
-                           <div class="desc">
-                               <a href="https://github.com/prxdyu/SnakeGame"><i class="fa-solid fa-staff-snake mini-project-icons"></i><h3 class="mini-project-title">Snake Game</h3></a>
-                               <p class="lead">This Mini project, built using Turtle Library in python creates a replica of all time famous snake game that was popular during the '80s.</p>
-                           </div>
-
-                           <!-- end testi-meta -->
-                       </div>
-                       <!-- end testimonial -->
 
                        <div class="testimonial clearfix">
                            <div class="desc">
-                             <a href="https://github.com/prxdyu/complainingBot"><i class="fa-solid fa-robot mini-project-icons"></i><h3 class="mini-project-title">Complaining Bot</h3></a>
-
-                               <p class="lead">This bot automates internet speed test and tweets a complaint against your ISP if the actual speed is less than the promised speed</p>
-                           </div>
-
-                           <!-- end testi-meta -->
-                       </div>
-                       <!-- end testimonial -->
-                       <div class="testimonial clearfix">
-                           <div class="desc">
-                              <a href="https://github.com/prxdyu/PomodoroTimer"><i class="fa-solid fa-hourglass-end mini-project-icons"></i><h3 class='mini-project-title'>Pomodoro Timer</h3></a>
-
-                               <p class="lead">The Pomodoro timer is a Desktop GUI Application that is based on  Pomodoro Technique to increase productivity and to stay focused.</p>
-                           </div>
-
-                           <!-- end testi-meta -->
-                       </div>
-                       <!-- end testimonial -->
-
-                       <div class="testimonial clearfix">
-                           <div class="desc">
-                             <a href="https://github.com/prxdyu/PasswordManager"><i class="fa-solid fa-lock mini-project-icons"></i><h3 class='mini-project-title'>Password Manager</h3></a>
-
-                               <p class="lead">This password manager is a Desktop GUI application built using TKinter library in python  that is used to save various passwords of a user </p>
-                           </div>
-                           <div class="testi-meta">
-
-                           </div>
-
-                           <!-- end testi-meta -->
-                       </div>
-                       <!-- end testimonial -->
-
-                       <div class="testimonial clearfix">
-                           <div class="desc">
-                             <a href="https://github.com/prxdyu/TurtleCrossingGame"><i class="fa-solid fa-flag-checkered mini-project-icons"></i><h3 class='mini-project-title'> Turtle Crossing Game</h3></a>
-
-                               <p class="lead">This is a racing game in which turtles races and this game is developed by using the Turtle library in python </p>
+                             <a href="https://github.com/prxdyu/TurtleCrossingGame"><h3 class='mini-project-title'> 
+                              Data Analysis Using Python</h3></a>
+                             <p class="lead">Learnt the fundamentals of data analysis using python. Gained hands on in analyzing large datasets</p>
                            </div>
                            <div class="testi-meta" style="">
                              <h1></h1>
@@ -511,7 +628,7 @@
                        </div><!-- end
 
                          nial -->
-                       <
+                       
                    </div><!-- end carousel -->
 
                </div><!-- end col -->
