@@ -1,2 +1,46 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+tabs {
+    display: flex;
+    background-color: #333;
+}
+
+.tabs button {
+    background-color: inherit;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.tabs button:hover {
+    background-color: #575757;
+}
+
+.tabs button.active {
+    background-color: #555;
+}
+
+.tabcontent {
+    display: none;
+    padding: 20px;
+    border-top: none;
+}
+
+
+.project-img {
+    width: 100%;            /* Ensures the image takes the full width of its container */
+    height: 200px;          /* Sets a fixed height for the images */
+    object-fit: cover;      /* Ensures the image covers the entire area without distorting aspect ratio */
+    object-position: center; /* Centers the image within the defined dimensions */
+}
+
+
+.propensity-img{
+    width: 100%;            /* Ensures the image takes the full width of its container */
+    height: 100px;          /* Sets a fixed height for the images */
+    object-fit: cover;      /* Ensures the image covers the entire area without distorting aspect ratio */
+    object-position: center; /* Centers the image within the defined dimensions */
+}

@@ -268,63 +268,125 @@
 			<div class="section-title text-left">
                 <h3>Projects</h3>
             </div><!-- end title -->
+      
+            <div class="tab-container">
 
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-lg-4">
-					<div class="post-box">
-              <a href="https://pradyublog.onrender.com/">
-    						<div class="post-thumb">
+                  <div class="tabs">
+                      <button class="tablinks" onclick="openTab(event, 'MachineLearning')">Machine Learning Projects</button>
+                      <button class="tablinks" onclick="openTab(event, 'DeepLearning')">Deep Learning Projects</button>
+                      <button class="tablinks" onclick="openTab(event, 'Python')">Python Projects</button>
+                  </div>
+          
+                  <div id="MachineLearning" class="tabcontent">
 
-    							<img src="uploads/download.png" class="img-fluid" alt="post-img" />
-    							<!-- <div class="date">
-    							</div> -->
-    						</div>
-    						<div class="post-info">
-                  <h4 class='project-title'>Blog Web-App <a href="https://github.com/prxdyu/Pradyu-Blog"><i class="fa-brands fa-github projecticons"></i></h4>
-              </a>
-              <p style="padding-bottom:23px;">Standalone Blog Web-App where a user can post,comment,login developed using HTML, CSS, JavaScript for the front end and Python Flask framework for the backend deployed using render cloud 
-</a>
-            </p>
-						</div>
-					</div>
-				</div>
+                            <!-- ML PROJECTS -->
+                              <br>
 
 
-        <div class="col-md-4 col-sm-6 col-lg-4">
-          <div class="post-box">
-              <a href="https://medium.com/@prxdyu/propensityboost-e-commerce-purchase-optimization-78b513fbacb0">
-                <div class="post-thumb">
+                              <div class="row">
+                                    <!-- 1. Propensity Modelling -->
+                                    <div class="col-md-4 col-sm-6 col-lg-4">
+                                        <div class="post-box">
+                                            <a href="https://medium.com/@prxdyu/propensityboost-e-commerce-purchase-optimization-78b513fbacb0">
+                                                <div class="post-thumb">
+                                                    <img src="uploads/propensity2.jpeg" class="img-fluid" alt="post-img project-img" />
+                                                </div>
+                                                <div class="post-info">
+                                                    <h4 class='project-title' style="padding-top: 25px;" >Propensity Modelling <a href="https://github.com/prxdyu/customer_propensity_modelling"><i class="fa-brands fa-github projecticons"></i></a></h4>
+                                                    <p >Developed a customer propensity model leveraging machine learning algorithms to predict purchase likelihood based on historical
+                                                    data and RFM Modelling to aid marketing teams of e-commerce startups</p>
+                                                </div>
+                                            </a> <!-- Missing closing tag added here -->
+                                        </div>
+                                    </div>
+                            
+                                    <!-- 2. Market basket analysis -->
+                                    <div class="col-md-4 col-sm-6 col-lg-4">
+                                        <div class="post-box">
+                                            <a href="http://52.90.53.178:5000/">
+                                                <div class="post-thumb">
+                                                    <img src="uploads/mba.jpeg" class="img-fluid project-img" alt="post-img" />
+                                                </div>
+                                                <div class="post-info">
+                                                    <h4 class='project-title'><a href="http://52.90.53.178:5000/">Market Basket Analysis</a> <a href="https://github.com/prxdyu/market_basket_analysis"><i class="fa-brands fa-github projecticons"></i></a></h4>
+                                                    <p>Gathered sales transaction data and built a product recommender application by performing Market basket analysis using Apriori algorithm to aid customers and marketing teams</p>
+                                                </div>
+                                            </a> <!-- Missing closing tag added here -->
+                                        </div>
+                                    </div>
+                            </div> <!-- Closing div for the row added here -->
+                  
+                  </div>
+                      
+                  
+                  <!-- DEEP LEARNING PROJECTS -->
+                  <div id="DeepLearning" class="tabcontent">
+                     
+                            <br>
+                            <div class="row">
+                                        <!-- 1. ABSA -->
+                                        <div class="col-md-4 col-sm-6 col-lg-4">
+                                            <div class="post-box">
+                                                    <div class="post-thumb">
+                                                      <img src="uploads/absa.jpeg" alt="idk" class="img-fluid project-img">
+                                                        
+                                                    </div>
+                                                    <div class="post-info">
+                                                        <a href="https://review-sentiment-analyzer.streamlit.app/"> <h4 class='project-title'>Restaurant review sentiment analyzer<a href="https://github.com/prxdyu/review_sentiment_analyzer">  <i class="fa-brands fa-github projecticons"></i></a></h4></a>
+                                                        <p >Built an Aspect-Based Sentiment Analyzer for restaurant reviews by implementing GRUs with custom attention mechanism using tensorflow. Given a review and aspect, this model predicts sentimentof the reviewer about that aspect.</p>
+                                                    </div>
+                                               
+                                            </div>
+                                        </div>
+                                
+                                        <!-- 2. Market basket analysis -->
+                                        <div class="col-md-4 col-sm-6 col-lg-4">
+                                            <div class="post-box">
+                                                
+                                                    <div class="post-thumb">
 
-                  <img src="uploads/propensity.jpeg" class="img-fluid" alt="post-img" />
-                  <!-- <div class="date">
-                  </div> -->
-                </div>
-                <div class="post-info">
-                  <h4 class='project-title'>Propensity Modelling <a href="https://github.com/prxdyu/customer_propensity_modelling"><i class="fa-brands fa-github projecticons"></i></a></h4>
-              </a>
-              <p style="padding-bottom:23px;">Developed a customer propensity model leveraging machine learning algorithms to predict purchase likelihood based on historical
-data and RFM Modelling to aid marketing teams of e-commerce startups  </p>
+                                                        <img src="uploads/hinglish.jpeg" alt="idk" class="img-fluid project-img">
+                                                        
+                                                    </div>
+                                                    <div class="post-info">
+                                                      <a href="https://github.com/prxdyu/hinglish_2_english"> <h4 class='project-title'>Hinglish to English Translator <i class="fa-brands fa-github projecticons"></i></a></h4>
+                                                        <p>Built a translator by implementing a custom Transformer model with Multi-head self attention from scratch using tensorflow and trained it with hinglish2english dataset. This model translates Hinglish (Hindi written in english alphabets) sentences to English</p>
+                                                    </div>
+                                                
+                                            </div>
+                                        </div>
+                              </div> <!-- Closing div for the row added here -->
+
+                  </div>
+                  
+                  <!-- PYTHON PROJECTS -->
+                  <div id="Python" class="tabcontent">
+                      <br>
+                      <div class="row">
+                        <!-- 1. ABSA -->
+                        <div class="col-md-4 col-sm-6 col-lg-4">
+                          <div class="post-box">
+                              <a href="https://pradyublog.onrender.com/">
+                                <div class="post-thumb">
+                                  <img src="uploads/download.png" class="img-fluid project-img" alt="post-img" />
+                                </div>
+                                <div class="post-info">
+                                  <h4 class='project-title'>Blog Web-App <a href="https://github.com/prxdyu/Pradyu-Blog"><i class="fa-brands fa-github projecticons"></i></h4>
+                                  </a>
+                                  <p style="padding-bottom:23px;">Standalone Blog Web-Application for blogging  where a user can create account, login, post and comment on others post. Developed the fronted using HTML, CSS, Bootstrap and JavaScript. Employed Python Flask framework for the backend. This webapp is deployed using render cloud </p>
+                                </div>
+                          </div>
+                        </div>
+                
+                        
+                      </div> <!-- Closing div for the row added here -->
+
+
+                  </div>
             </div>
-          </div>
-        </div>
+      <br>
 
-
-        <div class="col-md-4 col-sm-6 col-lg-4">
-          <div class="post-box">
-              <a href="http://52.90.53.178:5000/">
-                <div class="post-thumb">
-
-                  <img src="https://365datascience.com/resources/blog/thumb@1024_76d23eoyf32-market-basket-analysis-frequent-items.webp" class="img-fluid" alt="post-img" />
-                  <!-- <div class="date">
-                  </div> -->
-                </div>
-                <div class="post-info">
-                  <h4 class='project-title' style="padding-top: 45px;"><a href="http://52.90.53.178:5000/">Market Basket Analysis</a> <a href="https://github.com/prxdyu/market_basket_analysis"><i class="fa-brands fa-github projecticons"></i></a></h4>
-              </a>
-              <p style="padding-bottom:23px;">Gathered sales transaction data and built a product recommender application by performing Market basket analysis using Apriori algorithm to aid customers and marketing teams  </p>
-            </div>
-          </div>
-        </div>
+			
 
 
 
@@ -607,6 +669,7 @@ data and RFM Modelling to aid marketing teams of e-commerce startups  </p>
     <!-- ALL PLUGINS -->
     <script src="js/custom.js"></script>
     <script src="js/jquery.vide.js"></script>
+    <script src="js/custom2.js"></script>
 
 </body>
 </html>
