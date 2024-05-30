@@ -44,3 +44,86 @@ tabs {
     object-fit: cover;      /* Ensures the image covers the entire area without distorting aspect ratio */
     object-position: center; /* Centers the image within the defined dimensions */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+..timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #ddd;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.experience-container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.experience-container.left {
+    left: 0;
+}
+
+.experience-container.right {
+    left: 50%;
+}
+
+.experience-container::after {
+    content: '';
+    position: absolute;
+    width: 3px;  /* Narrow width for the line */
+    height: 30px;  /* Height of the line */
+    right: -1.5px; /* Center the line on the timeline */
+    background-color: #16f158;  /* Line color */
+    top: 0;  /* Align at the top of the container */
+    z-index: 1;
+}
+
+.experience-container.right::after {
+    left: -1.5px; /* Center the line on the timeline */
+    right: auto;
+}
+
+.experience-container .content {
+    padding: 20px 30px;
+    background-color: #333;
+    position: relative;
+    border-radius: 6px;
+}
+
+.experience-container.left .content {
+    margin-left: 60px;
+}
+
+.experience-container.right .content {
+    margin-right: 60px;
+}
+
+.experience-container h2, .experience-container h3 {
+    margin: 0;
+}
+
+.experience-container p {
+    margin: 15px 0 0;
+}
