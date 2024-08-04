@@ -148,7 +148,7 @@
                   <img src="https://img.shields.io/badge/-JavaScript-000?&logo=JavaScript" alt="JavaScript">
                   <img src="https://img.shields.io/badge/-C-000?&logo=C" alt="C">
                   <img src="https://img.shields.io/badge/-SQL-000?&logo=MySQL" alt="SQL">
-                  
+
                   <div style="margin-top: 20px;"></div>
 
                   <h3>Tools/Techs</h3>
@@ -161,7 +161,7 @@
                   <img src="https://img.shields.io/badge/-MLFlow-000?&logo=MLFlow" alt="MLFlow">
                   <img src="https://img.shields.io/badge/-Airflow-000?&logo=Airflow" alt="Airflow">
 
-                  
+
                   <div style="margin-top: 20px;"></div>
 
                   <h3>Libraries/Frameworks</h3>
@@ -176,7 +176,7 @@
                   <img src="https://img.shields.io/badge/-Langchain-000?&logo=Langchain" alt="LangChain">
 
 
-                    
+
 
 
                   </div><!-- end messagebox -->
@@ -268,7 +268,7 @@
 			<div class="section-title text-left">
                 <h3>Projects</h3>
             </div><!-- end title -->
-      
+
             <div class="tab-container">
 
                   <div class="tabs">
@@ -277,14 +277,14 @@
                       <button class="tablinks" onclick="openTab(event, 'Implementations')">Implementations</button>
                       <button class="tablinks" onclick="openTab(event, 'DataAnalytics')">Data Analytics Projects</button>
                       <button class="tablinks" onclick="openTab(event, 'Python')">Python Projects</button>
-                      
+
                   </div>
-          
+
                    <!-- ML PROJECTS -->
                   <div id="MachineLearning" class="tabcontent">
 
                               <br>
-                              
+
                               <div class="row">
                                     <!-- 1. Propensity Modelling -->
                                     <div class="col-md-4 col-sm-6 col-lg-4">
@@ -295,13 +295,12 @@
                                                 </div>
                                                 <div class="post-info">
                                                     <h4 class='project-title' style="padding-top: 25px;" ><a href="https://youtu.be/qJVYI3O0TQE">Propensity Modelling</a> <a href="https://github.com/prxdyu/customer_propensity_modelling"><i class="fa-brands fa-github projecticons"></i></a></h4>
-                                                    <p >Developed a customer propensity model leveraging machine learning algorithms to predict purchase likelihood based on historical
-                                                    data and RFM Modelling to aid marketing teams of e-commerce startups</p>
+                                                    <p style="padding-bottom: 25px;">Developed a customer propensity model to predict purchase likelihood based on historical data and RFM Modelling to aid marketing teams of e-commerce startups. Developed a Flask application to provide an interface to get predictions, implemented CI/CD pipelines with GitHub Actions for automated testing, building, and deployment.</p>
                                                 </div>
                                             </a> <!-- Missing closing tag added here -->
                                         </div>
                                     </div>
-                            
+
                                     <!-- 2. Market basket analysis -->
                                     <div class="col-md-4 col-sm-6 col-lg-4">
                                         <div class="post-box">
@@ -311,13 +310,28 @@
                                                 </div>
                                                 <div class="post-info">
                                                     <h4 class='project-title'><a href="https://youtu.be/4zEAkFhw4rM">Market Basket Analysis</a> <a href="https://github.com/prxdyu/market_basket_analysis"><i class="fa-brands fa-github projecticons"></i></a></h4>
-                                                    <p>Gathered sales transaction data and built a product recommender application by performing Market basket analysis using Apriori algorithm to aid customers and marketing teams</p>
+                                                    <p>Built a product recommender that recommends a product using the items added in the cart through association rules mined from the sales transaction data to aid customers and marketing teams. Developed a flask application to provide an interface for recommender, built  CI/CD pipelines with GitHub Actions for automated testing, building, and deployment</p>
                                                 </div>
                                             </a> <!-- Missing closing tag added here -->
                                         </div>
                                     </div>
 
-                                    
+                                    <!-- 2. Market basket analysis -->
+                                    <div class="col-md-4 col-sm-6 col-lg-4">
+                                        <div class="post-box">
+                                            <a href="https://github.com/prxdyu/healthcare_forecasting_system">
+                                                <div class="post-thumb">
+                                                    <img src="uploads/healthcare.jpg" class="img-fluid project-img" alt="post-img" />
+                                                </div>
+                                                <div class="post-info" style="pa">
+                                                    <h4 class='project-title'><a href="https://github.com/prxdyu/healthcare_forecasting_system"> LOS Forecasting system </a> <a href="https://github.com/prxdyu/market_basket_analysis"><i class="fa-brands fa-github projecticons"></i></a></h4>
+                                                    <p>Built a forecasting system to predict daily patient length of stay for optimizing costs and improving care delivery. Implemented a training pipeline to pull new patient data, perform batch predictions, and log results into the database.Developed a retraining pipeline to check for data/model drift and redeploy the model as needed.</p>
+                                                </div>
+                                            </a> <!-- Missing closing tag added here -->
+                                        </div>
+                                    </div>
+
+
 
 
 
@@ -326,13 +340,13 @@
 
 
                                </div> <!-- Closing div for the row added here -->
-                  
+
                   </div>
-                      
-                  
+
+
                   <!-- DEEP LEARNING PROJECTS -->
                   <div id="DeepLearning" class="tabcontent">
-                     
+
                             <br>
                             <div class="row">
                                         <!-- 1. ABSA -->
@@ -341,40 +355,63 @@
                                               <a href="https://review-sentiment-analyzer.streamlit.app/">
                                                     <div class="post-thumb">
                                                       <img src="uploads/absa.jpeg" alt="idk" class="img-fluid project-img">
-                                                        
+
                                                     </div>
                                                     <div class="post-info">
                                                         <a href="https://review-sentiment-analyzer.streamlit.app/"> <h4 class='project-title'>Restaurant review sentiment analyzer        <a href="https://github.com/prxdyu/review_sentiment_analyzer">         <i class="fa-brands fa-github projecticons"></i></a></h4></a>
-                                                        <p >Built an Aspect-Based Sentiment Analyzer for restaurant reviews by implementing GRUs with custom attention mechanism using tensorflow. Given a review and aspect, this model predicts sentimentof the reviewer about that aspect.</p>
+                                                        <p >Built an Aspect-Based Sentiment Analyzer for restaurant reviews by implementing GRUs with custom attention mechanism using tensorflow. Given a review and aspect, this model predicts sentimentof the reviewer about that aspect. Developed an interface for the translator using Streamlit and deployed it on the streamlit cloud.</p>
                                                     </div>
                                                   </a>
-                                               
+
                                             </div>
                                         </div>
-                                
+
                                         <!-- 2. Hinglish2English -->
                                         <div class="col-md-4 col-sm-6 col-lg-4">
                                             <div class="post-box">
-                                                
+
                                                     <div class="post-thumb">
 
                                                         <img src="uploads/hinglish.jpeg" alt="idk" class="img-fluid project-img">
-                                                        
+
                                                     </div>
                                                     <div class="post-info">
                                                       <a href="https://github.com/prxdyu/hinglish_2_english"> <h4 class='project-title'>Hinglish to English Translator <i class="fa-brands fa-github projecticons"></i></a></h4>
-                                                        <p>Built a translator by implementing a custom Transformer model with Multi-head self attention from scratch using tensorflow and trained it with hinglish2english dataset. This model translates Hinglish (Hindi written in english alphabets) sentences to English</p>
+                                                        <p>Built a language translator by implementing a custom Transformer model with Multi-head self attention from scratch using tensorflow and trained it with hinglish2english dataset. This model translates Hinglish (Hindi written in english alphabets) sentences to English, uploaded the trained model on hugging face hub</p>
                                                     </div>
-                                                
                                             </div>
                                         </div>
-                                        
+
+
+
+
+
+
+                                        <!-- 3. Search engine -->
+                                        <div class="col-md-4 col-sm-6 col-lg-4">
+                                            <div class="post-box">
+                                                <a href="https://www.youtube.com/watch?si=Blxt0Kwdif3MfCEX&v=ZZWdsIgtVlU&feature=youtu.be">
+
+                                                    <div class="post-thumb">
+
+                                                        <img src="uploads/search_engine.png" alt="idk" class="img-fluid project-img">
+
+                                                    </div>
+                                                    <div class="post-info">
+                                                      <h4 class='project-title'>News article Search Engine<a href="https://github.com/prxdyu/news_article_search_engine"> <i class="fa-brands fa-github projecticons"></i></a></h4>
+                                                        <p>Developed a search engine to retrieve news articles relevant to the user query using ANNOY algorithm and SBERT model embeddings. Implemented the entire pipeline, from data ingestion to embedding generation and ANNOY indexing. Deployed the dockerized solution on AWS EC2 instance with CI/CD Pipelines using GitHub Actions.</p>
+                                                    </div>
+                                                  </a>
+
+                                            </div>
+                                        </div>
+
                             </div> <!-- closing div for row-->
 
                   </div> <!-- closing div for DL projects-->
-                  
-                  
-                  
+
+
+
                   <!-- PYTHON PROJECTS -->
                    <div id="Python" class="tabcontent">
                       <br>
@@ -393,11 +430,11 @@
                                 </div>
                           </div>
                         </div>
-                
-                        
+
+
                       </div> <!-- Closing div for the row added here -->
                    </div>
-                 
+
 
 
                   <!-- IMPLEMENTATIONS -->
@@ -409,12 +446,12 @@
                           <!-- 1. ML algos -->
                           <div class="col-md-4 col-sm-6 col-lg-4">
                             <div class="post-box">
-                                
+
                                   <div class="post-thumb">
                                     <img src="uploads/ml_algos.jpeg" class="img-fluid project-img" alt="post-img" />
                                   </div>
                                   <div class="post-info">
-                                    <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>ML Algorithms  <i class="fa-brands fa-github projecticons"></i></h4> </a>            
+                                    <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>ML Algorithms  <i class="fa-brands fa-github projecticons"></i></h4> </a>
                                     <p >Implemented various Machine learning algorithms, metric and functionalities of sklearn using python from scratch which demonstrates my ability to code things from scratch </p>
                                   </div>
                             </div>
@@ -424,12 +461,12 @@
                           <!-- CNN Architectures -->
                           <div class="col-md-4 col-sm-6 col-lg-4">
                             <div class="post-box">
-                                
+
                                   <div class="post-thumb">
                                     <img src="uploads/cnn.jpeg" class="img-fluid project-img" alt="post-img" />
                                   </div>
                                   <div class="post-info">
-                                    <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>ConvNet Architectures<i class="fa-brands fa-github projecticons"></i></h4> </a>            
+                                    <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>ConvNet Architectures <i class="fa-brands fa-github projecticons"></i></h4> </a>
                                     <p >Implemented various Convolutional Neural Networks architectures like AlexNet, LeNet, InceptionNet and ResNet50 using Pytorch from scratch  demonstrating my ability to implement convnets</p>
                                   </div>
                             </div>
@@ -440,17 +477,17 @@
 
                           <div class="col-md-4 col-sm-6 col-lg-4">
                             <div class="post-box">
-                                
+
                                   <div class="post-thumb">
                                     <img src="uploads/nst2.jpeg.png" class="img-fluid project-img" alt="post-img" />
                                   </div>
                                   <div class="post-info">
-                                    <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>Neural Style Transfer  <i class="fa-brands fa-github projecticons"></i></h4> </a>            
+                                    <a href="https://github.com/prxdyu/ml_algorithms"> <h4 class='project-title'>Neural Style Transfer  <i class="fa-brands fa-github projecticons"></i></h4> </a>
                                     <p >Coded Neural style transfer algorithm to style images from scratch using pytorch. Used VGG19 model pre-trained on ImageNet to extract features from both content and style images</p>
                                   </div>
                             </div>
                           </div>
-                      
+
                     </div> <!-- Closing div for the row added here -->
                  </div> <!-- Closing of Implementations -->
 
@@ -465,7 +502,7 @@
                       <!-- 1. Marketing attribution -->
                       <div class="col-md-4 col-sm-6 col-lg-4">
                         <div class="post-box">
-                            
+
                                 <div class="post-thumb">
                                     <img src="uploads/markov.jpeg" class="img-fluid project-img" alt="post-img" />
                                 </div>
@@ -473,14 +510,14 @@
                                     <h4 class='project-title'><a href="https://medium.com/@prxdyu/marketing-attribution-using-markov-chains-a1f26e49b141">Marketing Attribution</a> <a href="https://github.com/prxdyu/marketing_attribution"><i class="fa-brands fa-github projecticons"></i></a></h4>
                                     <p>Implemented Markov chains for computing the transition probabilities between different marketing channels in user's journey aiding marketing teams to attribute channels appropriately </p>
                                 </div>
-                            
+
                         </div>
                      </div>
                      <!-- 2. Retail Price Optimization -->
 
                      <div class="col-md-4 col-sm-6 col-lg-4">
                       <div class="post-box">
-                          
+
                               <div class="post-thumb">
                                   <img src="https://miro.medium.com/v2/resize:fit:1400/1*MBiak1dDipFj13lyQaEwtg.png" class="img-fluid project-img" alt="post-img" />
                               </div>
@@ -488,11 +525,11 @@
                                   <h4 class='project-title'><a href="https://medium.com/@prxdyu/retail-price-optimization-4bb14e8ff66a">Price Optimization</a> <a href="https://github.com/prxdyu/retail_price_optimization"><i class="fa-brands fa-github projecticons"></i></a></h4>
                                   <p>Gather sales and transactions data from a burger cafe.Price optimization by performing data analysis and regression technique to find the optimal prices for food products to achieve maximum profit </p>
                               </div>
-                          
+
                       </div>
                    </div>
-              
-                      
+
+
                     </div> <!-- Closing div for the row added here -->
                  </div>
 
@@ -500,12 +537,12 @@
 
 
 
-                  
-            
+
+
           </div>
       <br>
 
-			
+
 
 
 			</div>
@@ -661,7 +698,7 @@
 
                        <div class="testimonial clearfix">
                            <div class="desc">
-                             <a href="https://www.credly.com/badges/4e13caf9-6467-461e-803b-78f7575de9b0?source=linked_in_profile"><h3 class='mini-project-title'> 
+                             <a href="https://www.credly.com/badges/4e13caf9-6467-461e-803b-78f7575de9b0?source=linked_in_profile"><h3 class='mini-project-title'>
                               Data Analysis Using Python</h3></a>
                              <p class="lead">Learnt the fundamentals of data analysis using python. Gained hands on in analyzing large datasets</p>
                            </div>
@@ -674,7 +711,7 @@
                        </div><!-- end
 
                          nial -->
-                       
+
                    </div><!-- end carousel -->
 
                </div><!-- end col -->
@@ -713,9 +750,9 @@
  						</div>
  					</div>
  				</div>
- 				
 
- 				
+
+
  			</div>
 
  		</div>
